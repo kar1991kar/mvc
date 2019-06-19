@@ -11,7 +11,6 @@ class MainController extends Controller {
             'age' => '22'
         ];
         $this->view->render('indexaction',$vars);
-        echo 'home page';
     }
 
 }
