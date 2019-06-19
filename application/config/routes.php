@@ -23,8 +23,3 @@ return [
         'action' => 'show',
     ]
 ];
-
-sdhfsdfgdsf
-
-djfgsdfsd
-jdsfjsdfd

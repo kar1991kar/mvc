@@ -46,13 +46,13 @@ namespace application\core;
                        $controller->$action();
                     }
                     else {
-                        echo 'action not found';
+                        View::errorCode(404);
                     }
                 } else {
-                    echo 'class not found';
+                    View::errorCode(404);
                 }
             } else {
-                echo 'route not found';
+                View::errorCode(404);
             }
         }
 

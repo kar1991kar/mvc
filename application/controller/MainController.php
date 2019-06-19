@@ -2,6 +2,7 @@
 namespace application\controller;
 
 use application\core\Controller;
+use application\lib\Db;
 
 class MainController extends Controller {
 
@@ -10,6 +11,7 @@ class MainController extends Controller {
             'name' => 'Jhon',
             'age' => '22'
         ];
+        $db = new Db;
         $this->view->render('indexaction',$vars);
     }
 
